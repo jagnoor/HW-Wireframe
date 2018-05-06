@@ -2,23 +2,25 @@
 * 02-Homework eazy - HW-Wireframe
 **/
 
-* {
-    box-sizing: border-box;
+body {
+
     text-align: center;
     background-color: #777;
     font-family: Arial, Helvetica, sans-serif;
     width: 960px;
     font-size: 18px;
     align-content: center;
+    margin-left: 125px;
+
 
   }
 
   header {
-    padding: 20px;
+    padding: 20px;  
     margin-bottom: 5px;
     color: #333;
     background: #ccc;
-}
+    }
 
  #nav {
     padding: 20px;
@@ -27,50 +29,77 @@
     background: #ccc;
  } 
 
+.box {
+
+    overflow-x: visible;
+    float: center;
+
+}
+
  #Section {
      float: left;
-    padding: 20px;
     margin-bottom: 20px;
     color: #333;
     background: #ccc;
-    width: 45%;
-    height: 250px;
-    } 
+    width: 495px;
+    height: 300px;
+    overflow-x: visible;
 
-#aside {
-    float: right;
-    padding: 20px;
-    margin-bottom: 20px;
-    color: #333;
-    background: #ccc;
-    width: 45%;
-    height: 250px;
     } 
 
 #Article {
     padding: 20px;
     margin-bottom: 20px;
-    color: #333;
-    background: #ccc;
-    width: 35%;
-    height: 200px;
+    color: #ebebeb;
+    background: #777;
+    width: 40%%;
+    height: 150px;
+    border: 10px;
+    border-color: #777;
+    margin: 20px;
     
     } 
 
 #h1h2h3 {
+    float: left;
     padding: 20px;
     margin-bottom: 20px;
     color: #333;
     background: #ccc;
-    width: 35%;
+    width: 90%;
+
     } 
 
 
 #p {
+    
+    float: left;
     padding: 20px;
     margin-bottom: 20px;
     color: #333;
     background: #ccc;
     width: 495px;  
-    width: 35%;      
+    width: 90%;      
  } 
+
+
+ #aside {
+    float: left;
+    margin-bottom: 20px;
+    color: #333;
+    background: #ccc;
+    width: 435px;
+    height: 300px;
+    clear: right;
+    overflow-x: visible;
+    margin-left: 30px;
+
+    } 
+
+    footer {
+        clear: both;
+        padding: 20px;
+        margin-top: 5px;
+        color: #333;
+        background: #ccc;
+    }
